@@ -15,6 +15,7 @@ local states = require("@self/core/states")
 local themes = require("@self/ui/themes")
 local toggleInventory = require("@self/api/toggleInventory")
 local types = require("@self/core/types")
+local removeCategory = require(script.api.removeCategory)
 
 export type ThemeConfig = types.ThemeConfig
 export type SlotContext = types.SlotContext
@@ -34,6 +35,7 @@ return {
 	isEnabled = isEnabled,
 	setEnabled = setEnabled,
 	createCategory = createCategory,
+	removeCategory = removeCategory,
 	setTheme = setTheme,
 	setHotbar = setHotbar,
 	onSlotRender = onSlotRender,

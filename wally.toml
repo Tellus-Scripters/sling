@@ -1,11 +1,12 @@
 [package]
-name = "encodedlux/sling"
-description = "A modern and reactive backpack system for Roblox."
-version = "0.1.5"
+name = "vetnech/sling"
+description = "A fork of Sling."
+version = "0.1.5-dev.1"
 license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
-repository = "https://github.com/encodedlux/sling"
+repository = "https://github.com/tellus-scripters/sling"
+
 exclude = ["**"]
 include = [
     "LICENSE",
