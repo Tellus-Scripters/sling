@@ -1,7 +1,7 @@
 [package]
 name = "vetnech/sling"
 description = "A fork of Sling."
-version = "0.1.5-dev.1"
+version = "0.1.5-dev.2"
 license = "MIT"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"

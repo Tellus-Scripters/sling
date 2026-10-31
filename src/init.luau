@@ -15,6 +15,7 @@ local states = require("@self/core/states")
 local themes = require("@self/ui/themes")
 local toggleInventory = require("@self/api/toggleInventory")
 local types = require("@self/core/types")
+local moveToInventory = require(script.api.moveToInventory)
 local removeCategory = require(script.api.removeCategory)
 
 export type ThemeConfig = types.ThemeConfig
@@ -38,6 +39,7 @@ return {
 	removeCategory = removeCategory,
 	setTheme = setTheme,
 	setHotbar = setHotbar,
+	moveToInventory = moveToInventory,
 	onSlotRender = onSlotRender,
 	setEquipHandler = setEquipHandler,
 	getTopbarIcon = getTopbarIcon,
